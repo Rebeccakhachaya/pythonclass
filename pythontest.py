@@ -26,11 +26,24 @@ x=["a","b","a","e","d","b","c","e","f","g",]
 print(x)
 x.remove
 print(x)
-def student(**kwargs):
-  student1={"age":19,"name":"jnae",}
-  student2={"age":20,"name":"macy"}
-  student3={"age":24,"name":"laura"}
-  return f"hello${name} "
+students = [{"age": 45, "name": "jane"}, {"age": 21, "name": "laura"},{"age": 18, "name": "frida"}, {"age": 22, "name": "Asha"}]
+def student():
+    for each in students:
+        print("Hello {}, you were born in the year {}".format(student['name'],2021-student['age']))
+
+student()
+
+
+class Rectangle():
+    def __init__(self,width,length):
+        self.width=width
+        self.length=length
+    def area():
+        return 6*5
+    def perimeter():
+        return 8*6
+     
+
 
 
     
